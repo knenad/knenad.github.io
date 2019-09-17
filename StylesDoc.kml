@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>_StylesDoc.kml</name>
+    
+    <!--
+
+To reference a style from within the KML document's <Placemark>s with just #controlArea
+or #highway, add a needed <StyleMap> to the KML docment(s) that will be using the style:
+
+<StyleMap id="controlArea">
+  <Pair>
+		<key>normal</key>
+		<styleUrl>https://www.hcms.mto.gov.on.ca/Content/kmz/_StylesDoc.kml#controlArea</styleUrl>
+  </Pair>
+  <Pair>
+		<key>highlight</key>
+		<styleUrl>https://www.hcms.mto.gov.on.ca/Content/kmz/_StylesDoc.kml#controlArea</styleUrl>
+  </Pair>
+</StyleMap>
+
+<StyleMap id="highway">
+  <Pair>
+		<key>normal</key>
+		<styleUrl>https://www.hcms.mto.gov.on.ca/Content/kmz/_StylesDoc.kml#highway</styleUrl>
+  </Pair>
+  <Pair>
+		<key>highlight</key>
+		<styleUrl>https://www.hcms.mto.gov.on.ca/Content/kmz/_StylesDoc.kml#highway</styleUrl>
+  </Pair>
+</StyleMap>
+
+Then, update each <Placemark> in the KML document(s) to reference a corresponding <StyleMap>:
+
+<styleUrl>#controlArea</styleUrl>
+
+or
+
+<styleUrl>#highway</styleUrl>
+
+    -->
+    <Style id="controlArea">
+      <LineStyle>
+        <color>99520019</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>19ff0056</color>
+      </PolyStyle>
+    </Style>
+
+    <Style id="highway">
+      <LineStyle>
+        <color>99520019</color>
+        <width>1</width>
+      </LineStyle>
+    </Style>
+    
+  </Document>
+</kml>
