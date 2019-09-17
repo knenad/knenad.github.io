@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Buf_Signs.kml</name>
+
+    <StyleMap id="c">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>https://knenad.github.io/StylesDoc.kml#controlArea</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>https://knenad.github.io/StylesDoc.kml#controlArea</styleUrl>
+      </Pair>
+    </StyleMap>
+
+    <NetworkLink>
+      <name>Buf_Signs.kmz</name>
+      <refreshVisibility>1</refreshVisibility>
+      <Link>
+        <href>https://knenad.github.io/Buf_Signs.kmz</href>
+        <refreshMode>onInterval</refreshMode>
+        <refreshInterval>60</refreshInterval>
+      </Link>
+    </NetworkLink>    
+
+    
+  </Document>
+</kml>

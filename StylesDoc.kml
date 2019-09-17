@@ -52,7 +52,7 @@ or
     <Style id="highway">
       <LineStyle>
         <color>99520019</color>
-        <width>2.5</width>
+        <width>1</width>
       </LineStyle>
     </Style>
     
