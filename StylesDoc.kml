@@ -41,8 +41,9 @@ or
     -->
     <Style id="controlArea">
       <LineStyle>
-        <color>99520019</color>
-        <width>1</width>
+<!--         <color>99520019</color>
+ -->        <color>ff0000ff</color>
+        <width>1.5</width>
       </LineStyle>
       <PolyStyle>
         <color>19ff0056</color>
