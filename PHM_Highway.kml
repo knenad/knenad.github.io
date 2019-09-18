@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Buf_Signs.kml</name>
+    <name>PHM_Highway.kml</name>
 
     <NetworkLink>
-      <name>Buf_Signs.kmz</name>
+      <name>PHM_Highway.kmz</name>
       <refreshVisibility>1</refreshVisibility>
       <Link>
-        <href>Buf_Signs.kmz</href>
+        <href>PHM_Highway.kmz</href>
         <refreshMode>onInterval</refreshMode>
         <refreshInterval>60</refreshInterval>
       </Link>
